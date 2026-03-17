@@ -1,0 +1,21 @@
+Initialize length ← 0
+Initialize words  ← 1
+Initialize vowels ← 0
+
+Read first character c
+
+While c != '.'
+    length ← length + 1
+    
+    If c is a vowel
+        vowels ← vowels + 1
+    EndIf
+    
+    If c == ' '
+        words ← words + 1
+    EndIf
+    
+    Read next character c
+EndWhile
+
+Print length, words, vowels
